@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xtgz/vanity.git"
+    "url": "git+https://github.com/xtgz/vanitygz.git"
   },
   "keywords": [
     "vanity",
@@ -25,12 +25,12 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xtgz/vanity/issues"
+    "url": "https://github.com/xtgz/vanitygz/issues"
   },
   "bin": {
     "vanityeth": "index.js"
   },
-  "homepage": "https://github.com/xtgz/vanity#readme",
+  "homepage": "https://github.com/xtgz/vanitygz#readme",
   "dependencies": {
     "ethereumjs-util": "^7.0.9",
     "hh-mm-ss": "^1.2.0",
