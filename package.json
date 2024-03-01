@@ -1,0 +1,40 @@
+{
+  "name": "vanity",
+  "version": "2.0.1",
+  "description": "ethereum vanity address generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtgz/vanity.git"
+  },
+  "keywords": [
+    "vanity",
+    "ethereum",
+    "address"
+  ],
+  "author": "xtgz",
+  "contributors": [
+    {
+      "name": "xtgz",
+      "url": "https://github.com/xtgz"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xtgz/vanity/issues"
+  },
+  "bin": {
+    "vanityeth": "index.js"
+  },
+  "homepage": "https://github.com/xtgz/vanity#readme",
+  "dependencies": {
+    "ethereumjs-util": "^7.0.9",
+    "hh-mm-ss": "^1.2.0",
+    "ora": "^6.0.1",
+    "yargs": "^17.2.1"
+  }
+}
