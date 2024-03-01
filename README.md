@@ -55,7 +55,7 @@ Get the image
 $ docker build -t vanityeth .
 
 # or download image
-docker pull xtgz/vanity
+docker pull xtgz/vanitygz
 ```
 
 Usage
@@ -63,14 +63,14 @@ Usage
 $ docker run -it vanityeth
 
 # Pass additional arguments
-$ docker run -it xtgz/vanity -i deadbeef
+$ docker run -it xtgz/vanitygz -i deadbeef
 ```
 
 ### Running Locally
 To run from source:
 ```sh
-git clone git@github.com:xtgz/vanity.git
-cd vanity
+git clone git@github.com:xtgz/vanitygz.git
+cd vanitygz
 npm install
 ./index.js
 ```
